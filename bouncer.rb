@@ -7,7 +7,7 @@ puts "Welcome! I am a bot and I am about to tell you what you can do :) \nHow ol
 
 user_age = check_age.to_i
 
-if user_age <= 18
+if user_age < 18
   user_b = "A"
 elsif user_age >= 18 && user_age <21
   user_b = "B"
@@ -17,13 +17,13 @@ else
   user_b = "D"
 end
 
-puts user_b
+# puts user_b
 
 can_dos = [{bracket: "A", cando: "do nothing"},{bracket: "B", cando: "vote"},
 {bracket: "C", cando: "vote and drink"},{bracket: "D", cando: "vote, drink, and rent a car!"}]
 
 
-quit_reply = "y"
+# quit_reply = "y"
 
 
 # while quit_reply == "y"
