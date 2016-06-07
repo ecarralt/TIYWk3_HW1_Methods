@@ -32,9 +32,10 @@ def check_age(a)
 
 end
 
-
+#Define quitting variable
 quit_reply = "n"
 
+#Execute created methods within while loop
 while quit_reply == "n" do
   check_age(user_question)
   puts "Do you want to quit? (y/n)?"
@@ -49,7 +50,7 @@ end
 
 
 
-
+#Old tests to see if code was working
 # puts user_b
 
 #
